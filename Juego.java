@@ -5,6 +5,7 @@ public class Juego{
     public static void main(String[] args){
         Scanner lee = new Scanner(System.in);
         Cuadrado nuevo = new Cuadrado(3,3);
+        System.out.println("linea agregada");
         nuevo.mostrarCuadrado();
         int f,c;
         int valor=0;
